@@ -1,0 +1,92 @@
+body{
+font-family: 'Roboto', sans-serif;
+padding: 100px;
+/* height: 100vh;
+width: 100vw; */
+}
+button{
+    border: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    align-items: center;
+   justify-content: baseline;
+   /* padding: 100px;
+   margin: 100px; */
+}
+.image{
+    height: 50px;
+    width: 120px;
+    padding: 30px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+.right{
+    color: aliceblue;
+    background: #5406f0;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+section div.left {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+   width: 48%;
+}
+section div.left .first{
+    color: #270367ef;
+    font-size: 50px;
+    /* margin: 100px; */
+    font-weight: 700;
+ 
+}
+.first{
+    line-height: -100px;
+}
+section div.left .first span{
+    color: #280be5;
+}
+section div.left .second{
+    /* margin: 10px; */
+    padding: 10px 0px 10px 0px;
+}
+.service{
+    color: aliceblue;
+    background: #5406f0;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top:30px ;
+}
+.right-img{
+ width: 700px;
+ margin: 0px 0px;
+}
+
+
+
+
+
+
